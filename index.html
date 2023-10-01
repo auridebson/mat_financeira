@@ -17,24 +17,32 @@
         <p>M = C . J</p>
     </div>
 
+    <hr>
+
     <div class="container-jsimples-calc">
-        <p><textarea id="textQuestao" cols="60" rows="4"></textarea></p>
-        <label for="Capital">Capital(C):</label><input type="number" id="nrCapital">
-        <label for="Taxa">Taxa(i):</label><input type="number" id="nrTaxa">
-        <label for="Montante(M)">Montante(M):</label><input type="number" id="nrMontante">
+        
+        <label for="Enunciado">Enunciado da Questão</label>
+        <textarea id="textQuestao" cols="100%" rows="4" placeholder="Cole aqui o enunciado da questão"></textarea>
+    
+        <label for="Capital">Capital(C - $):</label><input type="number" id="nrCapital">
+        <label for="Taxa">Taxa(i - %):</label><input type="number" id="nrTaxa">
+        <label for="Montante(M)">Montante(M - $):</label><input type="number" id="nrMontante">
+        <label for="Tempo(t)">Tempo(t - meses):</label><input type="number" id="nrTempo">
         <p>
             <button id="btnCalJsimples">Calcular</button>
         </p>
-        <div id="container-jsimples-resultado">
+        <div class="container-jsimples-resultado">
             sdfasdf
         </div>
     </div>
 </div>
-
+        
 <hr>
 
 
+<!-- Todo o container de Jursos Compostos aqui -->
 
+<!-- 
 <h1>Juros Compostos</h1>
 
 <div class="containar-jcompostos">
@@ -47,7 +55,7 @@
 </div>
 
 <hr>
-
+ -->
 
 
 <script src="script.js"></script>
