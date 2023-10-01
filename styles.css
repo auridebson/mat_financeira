@@ -1,0 +1,20 @@
+body {
+    padding: 0px;
+    margin: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-jsimples-calc {
+    display: inline;
+    flex-wrap: nowrap;
+    width: 80%;
+}
+
+.container-jsimples-resultado {
+    background-color: #f1e0cb;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
