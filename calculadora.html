@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Cáuculos</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<h1>Juros Simples</h1>
+
+<div class="container-jsimples">
+    <div class="containar-info-jsimples">
+        <p>J = C ∙ i ∙ t</p>
+        <p>M = C . J</p>
+    </div>
+
+    <hr>
+
+    <div class="container-jsimples-calc">
+        
+        <label for="Enunciado">Enunciado da Questão</label>
+        <textarea id="textQuestao" cols="100%" rows="4" placeholder="Cole aqui o enunciado da questão (Facilidade)"></textarea>
+    
+        <label for="Capital">Capital(C - $):</label><input type="number" id="nrCapital">
+        <label for="Taxa">Taxa(i - %):</label><input type="number" id="nrTaxa">
+        <label for="Montante(M)">Montante(M - $):</label><input type="number" id="nrMontante">
+        <label for="Tempo(t)">Tempo(t - meses):</label><input type="number" id="nrTempo">
+        <p>
+            <button id="btnCalJsimples">Calcular</button>
+        </p>
+        <div class="container-jsimples-resultado">
+            
+        </div>
+    </div>
+</div>
+        
+<hr>
+
+
+<!-- Todo o container de Jursos Compostos aqui -->
+
+<!-- 
+<h1>Juros Compostos</h1>
+
+<div class="containar-jcompostos">
+
+    <div class="containar-info-jcompostos">
+        <p>J = C ∙ ( 1 + i)%t</p>
+        <p>M = C + J</p>
+    </div>
+
+</div>
+
+<hr>
+ -->
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
